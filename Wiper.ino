@@ -31,9 +31,9 @@ IBusBM IBus;
 void setup()
 {
   IBus.begin(Serial);
-
-	pinMode(stepPin, OUTPUT);
-	pinMode(dirPin, OUTPUT);
+  
+  pinMode(stepPin, OUTPUT);
+  pinMode(dirPin, OUTPUT);
   pinMode(enablePin, OUTPUT);
   pinMode(switchPin, INPUT_PULLUP);
   pinMode(LED_BUILTIN, OUTPUT);
